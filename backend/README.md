@@ -24,7 +24,7 @@ uv sync
 cp .env.example .env
 uv run alembic upgrade head
 
-uv run main.py
+uv run --active main.py
 ```
 
 ## Docker
